@@ -51,4 +51,5 @@ public class Almohada {
     public void setPeso(int peso){
         this.peso = peso;
     }
+    
 }
