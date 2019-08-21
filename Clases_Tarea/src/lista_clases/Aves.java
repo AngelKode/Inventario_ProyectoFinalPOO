@@ -20,7 +20,6 @@ public class Aves {
         this.raza = "";
         this.altura = 0.0;
     }
-    
     public Aves(double peso,double altura, String color, String raza){
        this.peso = peso;
        this.altura = altura;

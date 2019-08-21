@@ -58,6 +58,5 @@ public class Casa {
 
     public void setPrecio(double precio) {
         this.precio = precio;
-    }
-    
+    }   
 }

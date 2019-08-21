@@ -21,7 +21,8 @@ public class Carro {
         this.capacidadPasajeros = 0;
         this.peso = 0.0;
     }
-        
+      
+    
     public Carro(String marca, String material, double peso, int capacidadPasajeros){
         this.marca = marca;
         this.material = material;

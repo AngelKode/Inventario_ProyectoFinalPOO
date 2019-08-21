@@ -14,6 +14,7 @@ public class Audifonos {
     private String marca, calidad_sonido, nombre;
     private double peso, longitud;
     
+    
     public Audifonos(){
         this.marca = "";
         this.calidad_sonido = "";

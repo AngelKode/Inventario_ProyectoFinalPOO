@@ -9,6 +9,7 @@ package lista_clases;
  *
  * @author depot
  */
+
 public class Almohada {
     
     private String marca,material, suavidad;

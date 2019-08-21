@@ -18,8 +18,7 @@ public class Bocinas {
         this.potencia = "";
         this.frecuencia = "";
         this.peso = 0.0;
-    }
-    
+    }  
     public Bocinas(String marca, String potencia, String frecuencia,double peso){
         this.marca = marca;
         this.potencia = potencia;

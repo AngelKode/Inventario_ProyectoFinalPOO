@@ -19,8 +19,7 @@ public class Bicicleta {
         this.frenos = "";
         this.material = "";
         this.peso = 0.0;
-    }
-    
+    } 
     public Bicicleta(String marca, String frenos, String material, double peso){
         this.marca = marca;
         this.frenos = frenos;
