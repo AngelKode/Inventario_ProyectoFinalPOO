@@ -15,7 +15,6 @@ import lista_clases.Cuaderno;
 import lista_clases.Estudiante;
 import lista_clases.Gato;
 import lista_clases.Liquido;
-
 import lista_clases.Mochila;
 import lista_clases.Pantalon;
 import lista_clases.Pared;
