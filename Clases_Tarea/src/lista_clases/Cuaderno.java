@@ -11,9 +11,9 @@ package lista_clases;
  */
 public class Cuaderno {
     
-    public double peso;
-    public String material, marca;
-    public int cantidadHojas;
+    private double peso;
+    private String material, marca;
+    private int cantidadHojas;
     
     public Cuaderno(){
        this.peso = 0.0;
@@ -27,4 +27,37 @@ public class Cuaderno {
         this.marca = marca;
         this.cantidadHojas = cantidadHojas;
     }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public String getMaterial() {
+        return this.material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public int getCantidadHojas() {
+        return this.cantidadHojas;
+    }
+
+    public void setCantidadHojas(int cantidadHojas) {
+        this.cantidadHojas = cantidadHojas;
+    }
+    
 }

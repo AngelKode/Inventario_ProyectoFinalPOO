@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Pluma {
     
-    public double largo;
-    public String color_tinta,marca,material;
+    private double largo;
+    private String color_tinta,marca,material;
     
     public Pluma(){
         this.largo = 0.0;
@@ -25,6 +25,38 @@ public class Pluma {
         this.largo = largo;
         this.color_tinta = color_tinta;
         this.marca = marca;
+        this.material = material;
+    }
+
+    public double getLargo() {
+        return this.largo;
+    }
+
+    public void setLargo(double largo) {
+        this.largo = largo;
+    }
+
+    public String getColor_tinta() {
+        return this.color_tinta;
+    }
+
+    public void setColor_tinta(String color_tinta) {
+        this.color_tinta = color_tinta;
+    }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getMaterial() {
+        return this.material;
+    }
+
+    public void setMaterial(String material) {
         this.material = material;
     }
             

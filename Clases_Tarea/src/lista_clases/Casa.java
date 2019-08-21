@@ -11,9 +11,9 @@ package lista_clases;
  */
 public class Casa {
     
-    public String propietario, lugarEstablecido;
-    public int cantidadPisos;
-    public double precio;
+    private String propietario,lugarEstablecido;
+    private int cantidadPisos;
+    private double precio;
     
     public Casa(){
        this.propietario = "";
@@ -27,4 +27,37 @@ public class Casa {
         this.cantidadPisos = cantidadPisos;
         this.precio = precio;
     }
+
+    public String getPropietario() {
+        return this.propietario;
+    }
+
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
+
+    public String getLugarEstablecido() {
+        return this.lugarEstablecido;
+    }
+
+    public void setLugarEstablecido(String lugarEstablecido) {
+        this.lugarEstablecido = lugarEstablecido;
+    }
+
+    public int getCantidadPisos() {
+        return this.cantidadPisos;
+    }
+
+    public void setCantidadPisos(int cantidadPisos) {
+        this.cantidadPisos = cantidadPisos;
+    }
+
+    public double getPrecio() {
+        return this.precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+    
 }

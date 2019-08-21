@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Audifonos {
     
-    public String marca, calidad_sonido, nombre;
-    public double peso, longitud;
+    private String marca, calidad_sonido, nombre;
+    private double peso, longitud;
     
     public Audifonos(){
         this.marca = "";
@@ -27,6 +27,37 @@ public class Audifonos {
         this.calidad_sonido = calidad_sonido;
         this.nombre = nombre;
         this.peso = peso;
+        this.longitud = longitud;
+    }
+    
+    public String getNombre(){
+        return this.nombre;
+    }
+    public String getMarca(){
+        return this.marca;
+    }
+    public String getCalidadSonido(){
+        return this.calidad_sonido;
+    }
+    public double getPeso(){
+        return this.peso;
+    }
+    public double getLongitud(){
+        return this.longitud;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+    public void setCalidadSonido(String calidadSonido){
+        this.calidad_sonido = calidadSonido;
+    }
+    public void setPeso(double peso){
+        this.peso = peso;
+    }
+    public void setLongitud(double longitud){
         this.longitud = longitud;
     }
 }

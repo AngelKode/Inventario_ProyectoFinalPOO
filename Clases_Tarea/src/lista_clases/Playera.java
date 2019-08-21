@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Playera {
     
-    public String material,talla,color;
-    public double peso;
+    private String material,talla,color;
+    private double peso;
     
     public Playera(){
         this.material = "";
@@ -27,4 +27,37 @@ public class Playera {
         this.color = color;
         this.peso = peso;
     }
+
+    public String getMaterial() {
+        return this.material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public String getTalla() {
+        return this.talla;
+    }
+
+    public void setTalla(String talla) {
+        this.talla = talla;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+    
 }

@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Pantalon {
     
-    public String material_construccion,marca,color;
-    public double largo,peso;
+    private String material_construccion,marca,color;
+    private double largo,peso;
     
     public Pantalon(){
         this.material_construccion = "";
@@ -29,4 +29,45 @@ public class Pantalon {
         this.largo = largo;
         this.peso = peso;
     }
+
+    public String getMaterial_construccion() {
+        return this.material_construccion;
+    }
+
+    public void setMaterial_construccion(String material_construccion) {
+        this.material_construccion = material_construccion;
+    }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getLargo() {
+        return this.largo;
+    }
+
+    public void setLargo(double largo) {
+        this.largo = largo;
+    }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+    
 }

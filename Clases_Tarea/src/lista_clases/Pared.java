@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Pared {
     
-    public double grueso,altura;
-    public String material;
+    private double grueso,altura;
+    private String material;
     
     public Pared(){
        this.grueso = 0.0;
@@ -25,4 +25,29 @@ public class Pared {
         this.altura = altura;
         this.material = material;
     }
+
+    public double getGrueso() {
+        return this.grueso;
+    }
+
+    public void setGrueso(double grueso) {
+        this.grueso = grueso;
+    }
+
+    public double getAltura() {
+        return this.altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public String getMaterial() {
+        return this.material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+    
 }

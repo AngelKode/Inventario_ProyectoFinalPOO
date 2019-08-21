@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Mochila {
     
-    public double peso;
-    public String marca, color,material_construccion;
+    private double peso;
+    private String marca, color,material_construccion;
     
     public Mochila(){
        this.peso = 0.0;
@@ -26,4 +26,37 @@ public class Mochila {
         this.color = color;
         this.material_construccion = material_construccion;
     }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getMaterial_construccion() {
+        return this.material_construccion;
+    }
+
+    public void setMaterial_construccion(String material_construccion) {
+        this.material_construccion = material_construccion;
+    }
+    
 }

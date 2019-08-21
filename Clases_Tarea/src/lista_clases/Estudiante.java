@@ -11,9 +11,9 @@ package lista_clases;
  */
 public class Estudiante {
     
-    public String nombre,sexo;
-    public int edad;
-    public double altura;
+    private String nombre,sexo;
+    private int edad;
+    private double altura;
     
     public Estudiante(){
        this.nombre = "";
@@ -28,4 +28,37 @@ public class Estudiante {
         this.edad = edad;
         this.altura = altura;
     }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getSexo() {
+        return this.sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public int getEdad() {
+        return this.edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public double getAltura() {
+        return this.altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+    
 }

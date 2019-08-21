@@ -11,9 +11,9 @@ package lista_clases;
  */
 public class Television {
     
-    public String marca, color;
-    public double peso;
-    public int cantidad_pixeles;
+    private String marca, color;
+    private double peso;
+    private int cantidad_pixeles;
     
     public Television(){
         this.marca = "";
@@ -26,6 +26,38 @@ public class Television {
         this.marca = marca;
         this.color = color;
         this.peso = peso;
+        this.cantidad_pixeles = cantidad_pixeles;
+    }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public int getCantidad_pixeles() {
+        return this.cantidad_pixeles;
+    }
+
+    public void setCantidad_pixeles(int cantidad_pixeles) {
         this.cantidad_pixeles = cantidad_pixeles;
     }
     

@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Sombrero {
     
-    public String color, tamanio,material;
-    public double diametro;
+    private String color, tamanio,material;
+    private double diametro;
     
     public Sombrero(){
         this.color = "";
@@ -27,4 +27,37 @@ public class Sombrero {
         this.material = material;
         this.diametro = diametro;
     }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getTamanio() {
+        return this.tamanio;
+    }
+
+    public void setTamanio(String tamanio) {
+        this.tamanio = tamanio;
+    }
+
+    public String getMaterial() {
+        return this.material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public double getDiametro() {
+        return this.diametro;
+    }
+
+    public void setDiametro(double diametro) {
+        this.diametro = diametro;
+    }
+    
 }

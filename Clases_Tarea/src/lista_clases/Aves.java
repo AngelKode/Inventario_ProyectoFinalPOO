@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Aves {
     
-    public double peso, altura;
-    public String color, raza;
+    private double peso, altura;
+    private String color, raza;
     
     public Aves(){
         this.peso = 0.0;
@@ -26,6 +26,38 @@ public class Aves {
        this.altura = altura;
        this.color = color;
        this.raza = raza;
+    }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public double getAltura() {
+        return this.altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getRaza() {
+        return this.raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
     }
     
 }

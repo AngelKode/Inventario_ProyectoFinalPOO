@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Gato {
     
-    public String raza,nombre;
-    public double peso,longitud;
+    private String raza,nombre;
+    private double peso,longitud;
     
     public Gato(){
         this.raza = "";
@@ -27,4 +27,37 @@ public class Gato {
         this.longitud = longitud;
         
     }
+
+    public String getRaza() {
+        return this.raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public double getLongitud() {
+        return this.longitud;
+    }
+
+    public void setLongitud(double longitud) {
+        this.longitud = longitud;
+    }
+    
 }

@@ -11,9 +11,9 @@ package lista_clases;
  */
 public class Carro {
     
-    public String marca, material;
-    public double peso;
-    public int capacidadPasajeros;
+    private String marca, material;
+    private double peso;
+    private int capacidadPasajeros;
     
     public Carro(){
         this.marca = "";
@@ -28,4 +28,37 @@ public class Carro {
         this.peso = peso;
         this.capacidadPasajeros = capacidadPasajeros;
      }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getMaterial() {
+        return this.material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public double getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public int getCapacidadPasajeros() {
+        return this.capacidadPasajeros;
+    }
+
+    public void setCapacidadPasajeros(int capacidadPasajeros) {
+        this.capacidadPasajeros = capacidadPasajeros;
+    }
+    
  }

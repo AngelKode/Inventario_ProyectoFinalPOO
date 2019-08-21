@@ -11,8 +11,8 @@ package lista_clases;
  */
 public class Shampoo {
     
-    public String color, olor, marca;
-    public double cantidad;
+    private String color, olor, marca;
+    private double cantidad;
     
     public Shampoo(){
         this.color = "";
@@ -27,4 +27,37 @@ public class Shampoo {
         this.marca = marca;
         this.cantidad = cantidad;
     }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getOlor() {
+        return this.olor;
+    }
+
+    public void setOlor(String olor) {
+        this.olor = olor;
+    }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public double getCantidad() {
+        return this.cantidad;
+    }
+
+    public void setCantidad(double cantidad) {
+        this.cantidad = cantidad;
+    }
+    
 }
