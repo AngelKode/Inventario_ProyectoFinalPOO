@@ -28,6 +28,8 @@ public class EjercicioArrayList {
         JOptionPane.showMessageDialog(null, "Las personas que ingresaste son: " + personas);
         personas.add(2, "Lola");//Agregando una nueva persona en el indice 2 del array
         JOptionPane.showMessageDialog(null, "Las personas que ingresaste son: " + personas);
-        personas.clear();//Vaciando el arraylist
+        personas.remove("Lola");//Removiendo el dato "Lola" de el array
+        personas.set(1, "Pedro");//Modificando en la posicion 1 lo que tenga por "Pedro"
+        JOptionPane.showMessageDialog(null, "Las personas que ingresaste son: " + personas);
     }   
 }
